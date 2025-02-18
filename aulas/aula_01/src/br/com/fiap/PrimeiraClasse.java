@@ -18,3 +18,7 @@ public class PrimeiraClasse {
         System.out.println('A');
     }
 }
+
+// Variaveis em JAVA
+// Aloca e armazena valores / informações na memória dinâmica (RAM)
+// Tipos de variáveis: Primitivos(char, byte, int, short, long, float, double, boolean) / NaoPrimitivos(String)
