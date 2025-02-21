@@ -4,7 +4,7 @@ import javax.swing.*; // * importando tudo
 
 public class InputPorJanela {
     public static void main(String[] args) {
-        // Variaveis e Metodos
+        // Variaveis
         int num1 = 0, num2 = 0, resultado = 0;
         String aux;
 
@@ -19,7 +19,7 @@ public class InputPorJanela {
             JOptionPane.showMessageDialog(null, num1 + " + " + num2 + " = " + resultado);
 
         } catch (Exception e) {
-            System.out.println("Tipo de numero incoreto!!!");
+            JOptionPane.showMessageDialog(null, "Tipo de numero incorreto!!!");
 
         }
     }

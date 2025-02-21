@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class InputDeDado {
     public static void main(String[] args) {
-        // Variaveis e Metodos
+        // Variaveis
         int num1 = 0, num2 = 0, resultado = 0;
         Scanner scan;
 
@@ -12,7 +12,7 @@ public class InputDeDado {
             scan = new Scanner(System.in); // Instanciação do scan
 
             System.out.print("Digite um numero inteiro: ");
-            num1 = scan.nextInt();
+            num1 = scan.nextInt(); // Recebe um Input
 
             System.out.print("Digite outro numero inteiro: ");
             num2 = scan.nextInt();
@@ -21,7 +21,7 @@ public class InputDeDado {
             System.out.println(num1 + " + " + num2 + " = " + resultado);
 
         } catch (Exception e) {
-            System.out.println("Tipo de numero incoreto!!!");
+            System.out.println("Tipo de numero incorreto!!!");
 
         }
     }
