@@ -1,0 +1,26 @@
+package br.com.fiap;
+
+import javax.swing.*; // * importando tudo
+
+public class InputPorJanela {
+    public static void main(String[] args) {
+        // Variaveis e Metodos
+        int num1 = 0, num2 = 0, resultado = 0;
+        String aux;
+
+        try {
+            aux = JOptionPane.showInputDialog("Digite um numero inteiro"); // Recebe uma String
+            num1 = Integer.parseInt(aux); // Convertendo para Int
+
+            aux = JOptionPane.showInputDialog("Digite outro numero inteiro");
+            num2 = Integer.parseInt(aux);
+
+            resultado = num1 + num2;
+            JOptionPane.showMessageDialog(null, num1 + " + " + num2 + " = " + resultado);
+
+        } catch (Exception e) {
+            System.out.println("Tipo de numero incoreto!!!");
+
+        }
+    }
+}
