@@ -2,7 +2,7 @@ package br.com.fiap;
 
 import javax.swing.*; // * importando tudo
 
-public class InputPorJanela {
+public class InputJanela {
     public static void main(String[] args) {
         // Variaveis
         int num1 = 0, num2 = 0, resultado = 0;

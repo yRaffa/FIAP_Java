@@ -2,7 +2,7 @@ package br.com.fiap;
 
 import java.util.Scanner;
 
-public class InputDeDado {
+public class InputConsole {
     public static void main(String[] args) {
         // Variaveis
         int num1 = 0, num2 = 0, resultado = 0;
