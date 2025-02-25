@@ -5,7 +5,7 @@ import javax.swing.*;
 public class Ex02IdadeJanela {
     public static void main(String[] args) {
         int anoAtual = 0, anoDeNascimento = 0, idade = 0;
-        String aux;
+        String aux = "";
 
         try {
             aux = JOptionPane.showInputDialog("Digite o ano atual: ");
