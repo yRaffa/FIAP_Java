@@ -21,7 +21,8 @@ public class Ex01MediaNotasJanela {
             prova04 = Float.parseFloat(aux);
 
             media = (prova01 + prova02 + prova03 + prova04) / 4;
-            JOptionPane.showMessageDialog(null, "Nota 01: " + prova01 + "\nNota 02: " + prova02 + "\nNota 03: " + prova03 + "\nNota 04: " + prova04 + "\nMedia: " + media);
+            JOptionPane.showMessageDialog(null, "Nota 01: " + prova01 + "\nNota 02: " + prova02 + "\nNota 03: "
+                    + prova03 + "\nNota 04: " + prova04 + "\nMedia: " + media);
 
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, "As notas devem ser numeros!!!");
