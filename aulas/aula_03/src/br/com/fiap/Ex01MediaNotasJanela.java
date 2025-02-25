@@ -4,7 +4,7 @@ import javax.swing.*;
 
 public class Ex01MediaNotasJanela {
     public static void main(String[] args) {
-        float prova01 = 0, prova02 = 0, prova03 = 0, prova04 = 0, media = 0;
+        float prova01 = 0.0f, prova02 = 0.0f, prova03 = 0.0f, prova04 = 0.0f, media = 0.0f;
         String aux = "";
 
         try {
