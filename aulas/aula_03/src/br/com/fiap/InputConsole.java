@@ -6,11 +6,9 @@ public class InputConsole {
     public static void main(String[] args) {
         // Variaveis
         int num1 = 0, num2 = 0, resultado = 0;
-        Scanner scan;
+        Scanner scan = new Scanner(System.in); // Instanciação do scan
 
         try {
-            scan = new Scanner(System.in); // Instanciação do scan
-
             System.out.print("Digite um numero inteiro: ");
             num1 = scan.nextInt(); // Recebe um Input
 
