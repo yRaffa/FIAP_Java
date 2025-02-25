@@ -17,6 +17,7 @@ public class Ex02IdadeConsole {
             idade = anoAtual - anoNascimento;
             System.out.println("Idade: " + idade);
 
+            scan.close();
         } catch (Exception e) {
             System.out.println("As datas devem ser numeros inteiros!!!");
         }

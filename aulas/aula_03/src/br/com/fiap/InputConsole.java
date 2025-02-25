@@ -18,6 +18,7 @@ public class InputConsole {
             resultado = num1 + num2;
             System.out.println(num1 + " + " + num2 + " = " + resultado);
 
+            scan.close();
         } catch (Exception e) {
             System.out.println("Tipo de numero incorreto!!!");
 

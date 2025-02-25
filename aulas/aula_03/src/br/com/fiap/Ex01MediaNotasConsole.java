@@ -23,6 +23,7 @@ public class Ex01MediaNotasConsole {
             media = (prova01 + prova02 + prova03 + prova04) / 4;
             System.out.println("Nota 01: " + prova01 + "\nNota 02: " + prova02 + "\nNota 03: " + prova03 + "\nNota 04: " + prova04 + "\nMedia: " + media);
 
+            scan.close();
         } catch (Exception e) {
             System.out.println("As notas devem ser numeros!!!");
         }

@@ -15,6 +15,7 @@ public class Ex03AreaCirculoConsole {
             area = PI * (raio * raio);
             System.out.println("Area do circulo: " + area);
 
+            scan.close();
         } catch (Exception e) {
             System.out.println("O raio deve ser um numero!!!");
         }
