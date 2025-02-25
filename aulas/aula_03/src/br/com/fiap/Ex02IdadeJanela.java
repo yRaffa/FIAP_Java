@@ -4,7 +4,7 @@ import javax.swing.*;
 
 public class Ex02IdadeJanela {
     public static void main(String[] args) {
-        int anoAtual = 0, anoDeNascimento = 0, idade = 0;
+        int anoAtual = 0, anoNascimento = 0, idade = 0;
         String aux = "";
 
         try {
@@ -12,9 +12,9 @@ public class Ex02IdadeJanela {
             anoAtual = Integer.parseInt(aux);
 
             aux = JOptionPane.showInputDialog("Digite seu ano de nascimento: ");
-            anoDeNascimento = Integer.parseInt(aux);
+            anoNascimento = Integer.parseInt(aux);
 
-            idade = anoAtual - anoDeNascimento;
+            idade = anoAtual - anoNascimento;
             JOptionPane.showMessageDialog(null, "Idade: " + idade);
 
         } catch (Exception e) {
