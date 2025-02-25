@@ -2,7 +2,7 @@ package br.com.fiap;
 
 import javax.swing.*;
 
-public class Ex01MediaDeNotasJanela {
+public class Ex01MediaNotasJanela {
     public static void main(String[] args) {
         float prova01 = 0, prova02 = 0, prova03 = 0, prova04 = 0, media = 0;
         String aux = "";
