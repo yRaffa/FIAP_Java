@@ -7,6 +7,7 @@ public class Main {
         Radio radio01 = new Radio();
         Televisor televisor01 = new Televisor();
         ArCondicionado ar = new ArCondicionado();
+        Computador pc = new Computador();
 
         // atribuindo valores aos atributos
         radio01.volume = 5;
@@ -37,5 +38,7 @@ public class Main {
         ar.diminuirTemperatura();
         ar.diminuirTemperatura();
         System.out.printf("\nAr - Temperatura atual: " + ar.temperatura + "\nAr - Modo atual: " + ar.modo);
+
+        
     }
 }
