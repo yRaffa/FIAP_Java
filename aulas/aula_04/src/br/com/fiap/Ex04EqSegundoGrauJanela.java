@@ -18,11 +18,17 @@ public class Ex04EqSegundoGrauJanela {
             c = Double.parseDouble(aux);
 
             delta = Math.pow(b, 2) - (4 * a * c);
-            x1 = ((b * -1) + Math.sqrt(delta)) / (2 * a);
-            x2 = ((b * -1) - Math.sqrt(delta)) / (2 * a);
-            JOptionPane.showMessageDialog(null,
-                    "a: " + a + "\nb: " + b + "\nc: " + c + "\n\ndelta: " + delta + "\n\nx1: " + x1 + "\nx2: " + x2);
 
+            if(delta < 0) {
+                JOptionPane.showMessageDialog(null, "Essa equancao nao possue raizes reais!!!");
+            } else if(delta == 0) {
+                x1 = ((b * -1) + Math.sqrt(delta)) / (2 * a);
+                JOptionPane.showMessageDialog(null, "a: " + a + "\nb: " + b + "\nc: " + c + "\n\ndelta: " + delta + "\n\nx: " + x1);
+            } else {
+                x1 = ((b * -1) + Math.sqrt(delta)) / (2 * a);
+                x2 = ((b * -1) - Math.sqrt(delta)) / (2 * a);
+                JOptionPane.showMessageDialog(null, "a: " + a + "\nb: " + b + "\nc: " + c + "\n\ndelta: " + delta + "\n\nx1: " + x1 + "\nx2: " + x2);
+            }
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, "'a', 'b' e 'c' devem ser numeros!!!");
         }
