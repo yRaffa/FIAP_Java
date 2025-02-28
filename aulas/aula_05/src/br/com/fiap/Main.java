@@ -39,6 +39,23 @@ public class Main {
         ar.diminuirTemperatura();
         System.out.printf("\nAr - Temperatura atual: " + ar.temperatura + "\nAr - Modo atual: " + ar.modo);
 
-        
+        pc.estado = "desligado";
+        pc.volume = 100;
+        pc.temperatura = 50.5f;
+
+        pc.mudarEstado("ligado");
+        pc.diminuirVolume();
+        pc.diminuirVolume();
+        pc.diminuirVolume();
+        pc.diminuirVolume();
+        pc.diminuirVolume();
+        pc.diminuirVolume();
+        pc.diminuirVolume();
+        pc.diminuirVolume();
+        pc.diminuirVolume();
+        pc.diminuirVolume();
+        pc.verificarTemperatura();
+
+        System.out.printf("PC - Estado atual: " + pc.estado + "\nPC - Volume atual: " + pc.volume);
     }
 }

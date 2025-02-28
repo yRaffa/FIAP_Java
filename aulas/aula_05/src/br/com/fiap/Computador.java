@@ -17,7 +17,7 @@ public class Computador {
         volume--;
     }
 
-    public void verificarTemperatura(){
-        System.out.println("Temperatura: " + temperatura);
+    public void verificarTemperatura() {
+        System.out.println("\n\nPC - Temperatura: " + temperatura);
     }
 }
